@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(45deg,rgb(146, 255, 84),rgb(38, 192, 184),rgb(0, 107, 179));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 80px 10px white;
+    margin: 10px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(45deg,#006faf, #009b5a,rgb(255, 50, 50),rgb(47, 47, 255),rgb(255, 34, 71));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 40px;
+}
+.row{
+    display: flex;
+}
+
+.inrow{
+    display: flex;
+    flex-direction: column;
+}
+
+.hour,.minute,.second,.millisecond{
+    background-color: white;
+    color: rgb(161, 161, 161);
+    width: 80px;
+    font-size: 48px;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.226);
+    box-shadow: 5px 5px 50px whitesmoke;
+    font-weight: bold;
+}
+.btn-start,.btn-stop,.btn-reset{
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    margin-top: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.info{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(161, 161, 161);
+    font-size: 18px;
+}
+.btn-start{
+    background-image: linear-gradient(45deg, rgb(0, 98, 211),rgb(23, 123, 255));
+}
+
+.btn-stop{
+    background-image: linear-gradient(90deg, rgb(209, 0, 0),rgb(255, 49, 49));
+}
+
+.btn-reset{
+    background-image: linear-gradient(90deg, rgb(90, 85, 85),rgb(117, 113, 113))
+}
+
+h3{
+    margin-top: 20px;
+    color: rgb(156, 156, 156);
+}
