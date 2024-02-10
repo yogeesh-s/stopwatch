@@ -16,7 +16,7 @@ A minimalist stopwatch web application built using HTML, CSS, and JavaScript. Th
 
 ## Demo
 
-Check out the live demo [here]((https://yogeesh-s.github.io/stopwatch/)).
+Check out the live demo [here](https://yogeesh-s.github.io/stopwatch/).
 
 ## Getting Started
 
